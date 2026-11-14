@@ -146,7 +146,7 @@ class Cfg3DEN
 };
 
 class ctrlMenuStrip;
-class display3DEN
+class Display3DEN
 {
 	onUnload="[1] call EOEX_fnc_disconnect;[""onUnload"",_this,""Display3DEN"",'3DENDisplays'] call (uinamespace getvariable 'BIS_fnc_initDisplay');";
 
