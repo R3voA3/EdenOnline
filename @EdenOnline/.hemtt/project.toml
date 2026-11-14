@@ -13,8 +13,17 @@ include = [
 [hemtt.launch.default]
 parameters = [
     "-noBattleEye",
-    "-window"
+    "-window",
+    "-limitFPS=60",
+    "-language=english"
 ]
+workshop = [
+    # 7erra's Editing Extensions
+    "1387934106",
+    # CBA
+    "450814997"
+]
+mission = "EdenOnline.VR" # Mission to launch directly into the editor with
 
 [version]
 major = 1
