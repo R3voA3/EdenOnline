@@ -54,7 +54,7 @@ _ipLabel ctrlSetText "Host:";
 
 // Host edit
 private _lastIp = profileNamespace getVariable ["EOEX_fnc_lastConnect","127.0.0.1"];
-_hostEdit = _display ctrlCreate ["ctrlEdit", 645];
+_hostEdit = _display ctrlCreate ["ctrlEdit", -1];
 _hostEdit ctrlSetPosition
 [
     CENTER_X + 0.5 * 80 * GRID_W - (36 + 1) * GRID_W,
@@ -77,7 +77,7 @@ _portLabel ctrlSetText "Port:";
 
 // Port edit
 private _lastPort = profileNamespace getVariable ["EOEX_fnc_lastPort","2302"];
-_portEdit = _display ctrlCreate ["ctrlEdit", 646];
+_portEdit = _display ctrlCreate ["ctrlEdit", -1];
 _portEdit ctrlSetPosition
 [
     CENTER_X + 0.5 * 80 * GRID_W - (36 + 1) * GRID_W,
@@ -99,7 +99,7 @@ _passLabel ctrlSetPosition
 _passLabel ctrlSetText "Password:";
 
 // Password edit
-private _passEdit = _display ctrlCreate ["ctrlEdit", 647];
+private _passEdit = _display ctrlCreate ["ctrlEdit", -1];
 _passEdit ctrlSetPosition
 [
     CENTER_X + 0.5 * 80 * GRID_W - (36 + 1) * GRID_W,
@@ -109,7 +109,7 @@ _passEdit ctrlSetPosition
 ];
 
 // Connect button
-private _connectBtn = _display ctrlCreate ["ctrlButton", 648];
+private _connectBtn = _display ctrlCreate ["ctrlButton", -1];
 _connectBtn ctrlSetPosition
 [
     CENTER_X - 0.5 * 25 * GRID_W,
@@ -120,7 +120,7 @@ _connectBtn ctrlSetPosition
 _connectBtn ctrlSetText "Connect";
 
 // Host button
-private _hostBtn = _display ctrlCreate ["ctrlButton", 649];
+private _hostBtn = _display ctrlCreate ["ctrlButton", -1];
 _hostBtn ctrlSetPosition
 [
     CENTER_X - 0.5 * 80 * GRID_W + 1 * GRID_W,
