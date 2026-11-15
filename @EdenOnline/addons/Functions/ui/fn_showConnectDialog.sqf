@@ -15,7 +15,7 @@
         // Title
         _title = _display ctrlCreate ["RscText", -1];
         _title ctrlSetPosition [0.3, 0.27, 0.4, 0.04];
-        _title ctrlSetText "Server Settings";
+        _title ctrlSetText (localize "STR_EOEX_UI_SERVER_SETTINGS");
         _title ctrlSetBackgroundColor [0,0,0,0];
         _title ctrlSetFont "PuristaMedium";
         _title ctrlCommit 0;
@@ -23,7 +23,7 @@
         // Host label
         _ipLabel = _display ctrlCreate ["RscText", -1];
         _ipLabel ctrlSetPosition [0.32, 0.34, 0.12, 0.04];
-        _ipLabel ctrlSetText "Host:";
+        _ipLabel ctrlSetText (localize "STR_EOEX_UI_HOST");
         _ipLabel ctrlSetBackgroundColor [0,0,0,0];
         _ipLabel ctrlSetFont "PuristaMedium";
         _ipLabel ctrlCommit 0;
@@ -40,7 +40,7 @@
         // Port label
         _portLabel = _display ctrlCreate ["RscText", -1];
         _portLabel ctrlSetPosition [0.32, 0.40, 0.12, 0.04];
-        _portLabel ctrlSetText "Port:";
+        _portLabel ctrlSetText (localize "STR_EOEX_UI_PORT");
         _portLabel ctrlSetBackgroundColor [0,0,0,0];
         _portLabel ctrlSetFont "PuristaMedium";
         _portLabel ctrlCommit 0;
@@ -57,7 +57,7 @@
         // Password label
         _passLabel = _display ctrlCreate ["RscText", -1];
         _passLabel ctrlSetPosition [0.32, 0.46, 0.12, 0.04];
-        _passLabel ctrlSetText "Password:";
+        _passLabel ctrlSetText (localize "STR_EOEX_UI_PASSWORD");
         _passLabel ctrlSetBackgroundColor [0,0,0,0];
         _passLabel ctrlSetFont "PuristaMedium";
         _passLabel ctrlCommit 0;
@@ -73,21 +73,21 @@
         // Connect button
         _connectBtn = _display ctrlCreate ["RscButton", 648];
         _connectBtn ctrlSetPosition [0.32, 0.54, 0.18, 0.06];
-        _connectBtn ctrlSetText "Connect";
+        _connectBtn ctrlSetText (localize "STR_EOEX_UI_CONNECT");
         _connectBtn ctrlSetFont "PuristaMedium";
         _connectBtn ctrlCommit 0;
 
         // Host button
         _hostBtn = _display ctrlCreate ["RscButton", 649];
         _hostBtn ctrlSetPosition [0.52, 0.54, 0.18, 0.06];
-        _hostBtn ctrlSetText "Host Server";
+        _hostBtn ctrlSetText (localize "STR_EOEX_UI_HOST_SERVER");
         _hostBtn ctrlSetFont "PuristaMedium";
         _hostBtn ctrlCommit 0;
 
         // Cancel button
         _cancelBtn = _display ctrlCreate ["RscButton", 650];
         _cancelBtn ctrlSetPosition [0.42, 0.62, 0.18, 0.06];
-        _cancelBtn ctrlSetText "Cancel";
+        _cancelBtn ctrlSetText (localize "STR_EOEX_UI_CANCEL");
         _cancelBtn ctrlSetFont "PuristaMedium";
         _cancelBtn ctrlCommit 0;
 
@@ -99,12 +99,12 @@
         // Button actions
         _connectBtn ctrlAddEventHandler ["ButtonClick", {
             if (isNil "EOEX_fnc_initExtension") exitWith {
-                [(format ["%1", "EdenOnline EOEX_fnc_initExtension function not found!"]), 1, 5] call BIS_fnc_3DENNotification;
+                [localize "STR_EOEX_NOTIFY_EXTENSION_FUNCTION_MISSING", 1, 5] call BIS_fnc_3DENNotification;
             };
 
             private _initialized = call EOEX_fnc_initExtension;
             if !(_initialized) exitWith {
-                [(format ["%1", "EdenOnline extension failed to initialize. Please check the RPT log for details."]), 1, 5] call BIS_fnc_3DENNotification;
+                [localize "STR_EOEX_NOTIFY_EXTENSION_INIT_FAILED", 1, 5] call BIS_fnc_3DENNotification;
             };
             
             private _hostCtrl = uiNamespace getVariable "EOEX_ConnectDialog_HostEdit";
@@ -129,12 +129,12 @@
         _hostBtn ctrlAddEventHandler ["ButtonClick", {
             // Check if EdenOnline extension is initialized. If not initialize. If it fails, exit with error message.
             if (isNil "EOEX_fnc_initExtension") exitWith {
-                [(format ["%1", "EdenOnline EOEX_fnc_initExtension function not found!"]), 1, 5] call BIS_fnc_3DENNotification;
+                [localize "STR_EOEX_NOTIFY_EXTENSION_FUNCTION_MISSING", 1, 5] call BIS_fnc_3DENNotification;
             };
 
             private _initialized = call EOEX_fnc_initExtension;
             if !(_initialized) exitWith {
-                [(format ["%1", "EdenOnline extension failed to initialize. Please check the RPT log for details."]), 1, 5] call BIS_fnc_3DENNotification;
+                [localize "STR_EOEX_NOTIFY_EXTENSION_INIT_FAILED", 1, 5] call BIS_fnc_3DENNotification;
             };
 
             private _portCtrl = uiNamespace getVariable "EOEX_ConnectDialog_PortEdit";
@@ -165,14 +165,14 @@
         // Host button
         _disconnectBtn = _display ctrlCreate ["RscButton", 649];
         _disconnectBtn ctrlSetPosition [0.52, 0.54, 0.18, 0.06];
-        _disconnectBtn ctrlSetText "Disconnect";
+        _disconnectBtn ctrlSetText (localize "STR_EOEX_UI_DISCONNECT");
         _disconnectBtn ctrlSetFont "PuristaMedium";
         _disconnectBtn ctrlCommit 0;
 
         // Cancel button
         _cancelBtn = _display ctrlCreate ["RscButton", 650];
         _cancelBtn ctrlSetPosition [0.42, 0.62, 0.18, 0.06];
-        _cancelBtn ctrlSetText "Cancel";
+        _cancelBtn ctrlSetText (localize "STR_EOEX_UI_CANCEL");
         _cancelBtn ctrlSetFont "PuristaMedium";
         _cancelBtn ctrlCommit 0;
 

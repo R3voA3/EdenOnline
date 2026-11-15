@@ -5,7 +5,7 @@ params [["_host","127.0.0.1",[""]], ["_port",2302,[0]], ["_password","",[""]]];
 // TODO make sure server is not already running && !connected
 
 if (missionNamespace getVariable ["EOEX_var_Connected",false]) exitWith {
-	["YOU ARE ALREADY CONNECTED", 1, 5] call BIS_fnc_3DENNotification;
+	[localize "STR_EOEX_NOTIFY_ALREADY_CONNECTED", 1, 5] call BIS_fnc_3DENNotification;
 };
 
 private _continue = true;
@@ -13,14 +13,14 @@ if ((all3DENEntities) isNotEqualTo [[],[],[],[],[],[],[],[-999]]) then {
     uiNamespace setVariable ["EOEX_var_ButtonConfirmed", nil];
 
     [
-        "<t align='center'>Connecting to a server will delete your current world.</t><br/><br/><t align='center' font='PuristaMedium'>Do you want to continue?</t>",
-        "Warning",
+        localize "STR_EOEX_WARNING_CONNECT_BODY",
+        localize "STR_EOEX_WARNING_TITLE",
         [
-            "Yes",
+            localize "STR_EOEX_UI_YES",
             { uiNamespace setVariable ["EOEX_var_ButtonConfirmed", true] }
         ],
         [
-            "No",
+            localize "STR_EOEX_UI_NO",
             { uiNamespace setVariable ["EOEX_var_ButtonConfirmed", false] }
         ],
         "\A3\ui_f\data\igui\cfg\simpleTasks\types\danger_ca.paa",
@@ -51,7 +51,7 @@ _modHashes sort true;
 private _gameVersion = format ["%1",(productVersion#2)/100 toFixed 2];
 private _password = "";
 
-startLoadingScreen ["Starting server..."];
+startLoadingScreen [localize "STR_EOEX_LOADING_STARTING_SERVER"];
 
 uiSleep 0.5;
 
@@ -78,7 +78,7 @@ while {EOEX_var_expectedObjectSyncCount == -1 || (count (all3DENEntities # 0)) <
 
 	// Timeout check
     if ((diag_tickTime - _startTime) > _timeoutSeconds) exitWith {
-        ["Server sync timed out!", 1, 5] call BIS_fnc_3DENNotification;
+        [localize "STR_EOEX_NOTIFY_SYNC_TIMEOUT", 1, 5] call BIS_fnc_3DENNotification;
         missionNamespace setVariable ["EOEX_var_Connected", false];
         endLoadingScreen;
     };
@@ -108,7 +108,7 @@ call EOEX_fnc_init3DENEvents;
 [] spawn EOEX_fnc_drawCameras;
 [] spawn EOEX_fnc_showPlayersDialog;
 
-[("CONNECTED TO SERVER WITH ID: " + str(_id)), 0,5] call BIS_fnc_3DENNotification;
+[format [localize "STR_EOEX_NOTIFY_CONNECTED", _id], 0,5] call BIS_fnc_3DENNotification;
 
 missionNamespace setVariable ["EOEX_var_Connected", true];
 

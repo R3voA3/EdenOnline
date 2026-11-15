@@ -6,7 +6,7 @@ if (_enable) then {
     private _loadingScreen = uiNamespace getVariable ["EOEX_var_loadingScreen", false];
 
     if (!_loadingScreen) then {
-        startLoadingScreen ["New client connecting..."];
+        startLoadingScreen [localize "STR_EOEX_LOADING_NEW_CLIENT"];
         uiNamespace setVariable ["EOEX_var_loadingScreen", true];
     };
 

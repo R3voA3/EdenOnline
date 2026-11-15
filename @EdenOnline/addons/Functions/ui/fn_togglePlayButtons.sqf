@@ -26,7 +26,7 @@ _ctrl ctrlEnable _enable;
 
 
 // Tooltip for control 1023
-_ctrl ctrlSetTooltip (["You cannot preview the mission while connected to EdenOnline.", ""] select (_enable));
+_ctrl ctrlSetTooltip ([localize "STR_EOEX_UI_CANNOT_PREVIEW", ""] select (_enable));
 
 
 // Enable/disable Play menu
@@ -51,7 +51,7 @@ private _tooltip = _display ctrlCreate ["RscStructuredText", -1];
 
 _tooltip ctrlSetPosition [0,0,0.40,0.06];
 _tooltip ctrlSetBackgroundColor [0,0,0,0.9];
-_tooltip ctrlSetStructuredText parseText "<t size='0.8' color='#FFFFFF'>You cannot preview the mission while connected to EdenOnline.</t>";
+_tooltip ctrlSetStructuredText parseText format ["<t size='0.8' color='#FFFFFF'>%1</t>", localize "STR_EOEX_UI_CANNOT_PREVIEW"];
 
 _tooltip ctrlCommit 0;
 _tooltip ctrlShow false;

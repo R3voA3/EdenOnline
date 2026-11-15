@@ -6,7 +6,7 @@ params ["_enable", "_progress"];
 
 if (_enable) then {
     if (isNil "EOEX_var_loadingScreen") then {
-        startLoadingScreen ["New client connecting..."];
+        startLoadingScreen [localize "STR_EOEX_LOADING_NEW_CLIENT"];
     };
     EOEX_var_loadingScreen = true;
     progressLoadingScreen _progress;

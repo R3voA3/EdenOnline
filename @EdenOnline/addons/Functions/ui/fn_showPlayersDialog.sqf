@@ -172,8 +172,8 @@ _list ctrlAddEventHandler ["MouseButtonDown", {
 	_menu ctrlSetBackgroundColor [0,0,0,1];
     _menu ctrlCommit 0;
 
-    _menu lbAdd "Teleport";
-    _menu lbAdd "Kick";
+    _menu lbAdd (localize "STR_EOEX_UI_TELEPORT");
+    _menu lbAdd (localize "STR_EOEX_UI_KICK");
 
     // Remember selected player
     uiNamespace setVariable [
@@ -188,16 +188,16 @@ _list ctrlAddEventHandler ["MouseButtonDown", {
 
         switch (_index) do {
             case 0: {
-                systemChat format ["Teleport %1", _playerIndex];
+                systemChat format [localize "STR_EOEX_CHAT_TELEPORT", _playerIndex];
             };
             case 1: {
-                systemChat format ["Track %1", _playerIndex];
+                systemChat format [localize "STR_EOEX_CHAT_TRACK", _playerIndex];
             };
             case 2: {
-                systemChat format ["Kick %1", _playerIndex];
+                systemChat format [localize "STR_EOEX_CHAT_KICK", _playerIndex];
             };
             case 3: {
-                systemChat format ["Copy UID %1", _playerIndex];
+                systemChat format [localize "STR_EOEX_CHAT_COPY_UID", _playerIndex];
             };
         };
 

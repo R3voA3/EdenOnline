@@ -22,7 +22,7 @@ private _newClients = createHashMapFromArray _otherClients;
         private _username = _newClients get _clientId;
 
         diag_log format ["[EXTENSION] Client connected: %1 (%2)", _clientId, _username];
-        systemChat format ["Client connected: %1 (%2)", _clientId, _username];
+        systemChat format [localize "STR_EOEX_CHAT_CLIENT_CONNECTED", _clientId, _username];
     };
 } forEach keys _newClients;
 
@@ -33,12 +33,12 @@ private _networkCameras = uiNamespace getVariable ["EOEX_var_networkCameras", cr
     private _clientId = _x;
 
     if !(_clientId in _newClients) then {
-        private _username = _previousClients getOrDefault [_clientId, format ["Client %1", _clientId]];
+        private _username = _previousClients getOrDefault [_clientId, format [localize "STR_EOEX_CLIENT_FALLBACK", _clientId]];
 
         _networkCameras deleteAt _clientId;
 
         diag_log format ["[EXTENSION] Client disconnected: %1 (%2)", _clientId, _username];
-        systemChat format ["Client disconnected: %1 (%2)", _clientId, _username];
+        systemChat format [localize "STR_EOEX_CHAT_CLIENT_DISCONNECTED", _clientId, _username];
     };
 } forEach keys _previousClients;
 

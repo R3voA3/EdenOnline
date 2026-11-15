@@ -1,0 +1,1787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="EdenOnline">
+    <Package name="EdenOnline">
+        <Key ID="STR_EOEX_CHAT_CLIENT_CONNECTED">
+            <Original>Client %1 connected: %2</Original>
+            <English>Client %1 connected: %2</English>
+            <!-- AI translated -->
+            <Czech>Klient %1 připojen: %2</Czech>
+            <!-- AI translated -->
+            <French>Client %1 connecté : %2</French>
+            <!-- AI translated -->
+            <Spanish>Cliente %1 conectado: %2</Spanish>
+            <!-- AI translated -->
+            <Italian>Client %1 connesso: %2</Italian>
+            <!-- AI translated -->
+            <Polish>Klient %1 połączony: %2</Polish>
+            <!-- AI translated -->
+            <Portuguese>Cliente %1 ligado: %2</Portuguese>
+            <!-- AI translated -->
+            <Russian>Клиент %1 подключён: %2</Russian>
+            <!-- AI translated -->
+            <German>Client %1 verbunden: %2</German>
+            <!-- AI translated -->
+            <Korean>클라이언트 %1 연결됨: %2</Korean>
+            <!-- AI translated -->
+            <Japanese>クライアント %1 が接続しました: %2</Japanese>
+            <!-- AI translated -->
+            <Chinese>客戶 %1 已連線：%2</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>客户端 %1 已连接：%2</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>İstemci %1 bağlandı: %2</Turkish>
+            <!-- AI translated -->
+            <Slovak>Klient %1 pripojený: %2</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Клієнт %1 підключений: %2</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Cliens %1 coniunctus: %2</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Клиент %1 е свързан: %2</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>%1 kliens csatlakozott: %2</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Klient %1 ansluten: %2</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Klijent %1 povezan: %2</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Klient %1 tilkoblet: %2</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Biðlari %1 tengdur: %2</Icelandic>
+            <!-- AI translated -->
+            <Greek>Ο πελάτης %1 συνδέθηκε: %2</Greek>
+            <!-- AI translated -->
+            <Finnish>Asiakas %1 yhdistetty: %2</Finnish>
+            <!-- AI translated -->
+            <Dutch>Client %1 verbonden: %2</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_CHAT_CLIENT_DISCONNECTED">
+            <Original>Client %1 disconnected: %2</Original>
+            <English>Client %1 disconnected: %2</English>
+            <!-- AI translated -->
+            <Czech>Klient %1 odpojen: %2</Czech>
+            <!-- AI translated -->
+            <French>Client %1 déconnecté : %2</French>
+            <!-- AI translated -->
+            <Spanish>Cliente %1 desconectado: %2</Spanish>
+            <!-- AI translated -->
+            <Italian>Client %1 disconnesso: %2</Italian>
+            <!-- AI translated -->
+            <Polish>Klient %1 rozłączony: %2</Polish>
+            <!-- AI translated -->
+            <Portuguese>Cliente %1 desligado: %2</Portuguese>
+            <!-- AI translated -->
+            <Russian>Клиент %1 отключён: %2</Russian>
+            <!-- AI translated -->
+            <German>Client %1 getrennt: %2</German>
+            <!-- AI translated -->
+            <Korean>클라이언트 %1 연결 해제됨: %2</Korean>
+            <!-- AI translated -->
+            <Japanese>クライアント %1 が切断しました: %2</Japanese>
+            <!-- AI translated -->
+            <Chinese>客戶 %1 已中斷連線：%2</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>客户端 %1 已断开：%2</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>İstemci %1 bağlantısı kesildi: %2</Turkish>
+            <!-- AI translated -->
+            <Slovak>Klient %1 odpojený: %2</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Клієнт %1 відключений: %2</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Cliens %1 disiunctus: %2</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Клиент %1 е прекъснал връзка: %2</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>%1 kliens lecsatlakozott: %2</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Klient %1 frånkopplad: %2</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Klijent %1 prekinuo vezu: %2</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Klient %1 frakoblet: %2</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Biðlari %1 aftengdur: %2</Icelandic>
+            <!-- AI translated -->
+            <Greek>Ο πελάτης %1 αποσυνδέθηκε: %2</Greek>
+            <!-- AI translated -->
+            <Finnish>Asiakas %1 katkaisi yhteyden: %2</Finnish>
+            <!-- AI translated -->
+            <Dutch>Client %1 verbroken: %2</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_CHAT_COPY_UID">
+            <Original>Copy UID %1</Original>
+            <English>Copy UID %1</English>
+            <!-- AI translated -->
+            <Czech>Kopírovat UID %1</Czech>
+            <!-- AI translated -->
+            <French>Copier l’UID %1</French>
+            <!-- AI translated -->
+            <Spanish>Copiar UID %1</Spanish>
+            <!-- AI translated -->
+            <Italian>Copia UID %1</Italian>
+            <!-- AI translated -->
+            <Polish>Kopiuj UID %1</Polish>
+            <!-- AI translated -->
+            <Portuguese>Copiar UID %1</Portuguese>
+            <!-- AI translated -->
+            <Russian>Скопировать UID %1</Russian>
+            <!-- AI translated -->
+            <German>UID %1 kopieren</German>
+            <!-- AI translated -->
+            <Korean>UID %1 복사</Korean>
+            <!-- AI translated -->
+            <Japanese>UID %1 をコピー</Japanese>
+            <!-- AI translated -->
+            <Chinese>複製 UID %1</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>复制 UID %1</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>%1 UID'sini kopyala</Turkish>
+            <!-- AI translated -->
+            <Slovak>Kopírovať UID %1</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Копіювати UID %1</Ukrainian>
+            <!-- AI translated -->
+            <Latin>UID %1 exscribe</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Копирай UID %1</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>%1 UID-jának másolása</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Kopiera UID %1</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Kopiraj UID %1</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Kopier UID %1</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Afrita UID %1</Icelandic>
+            <!-- AI translated -->
+            <Greek>Αντιγραφή UID %1</Greek>
+            <!-- AI translated -->
+            <Finnish>Kopioi UID %1</Finnish>
+            <!-- AI translated -->
+            <Dutch>UID %1 kopiëren</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_CHAT_KICK">
+            <Original>Kick %1</Original>
+            <English>Kick %1</English>
+            <!-- AI translated -->
+            <Czech>Vyhodit %1</Czech>
+            <!-- AI translated -->
+            <French>Expulser %1</French>
+            <!-- AI translated -->
+            <Spanish>Expulsar a %1</Spanish>
+            <!-- AI translated -->
+            <Italian>Espelli %1</Italian>
+            <!-- AI translated -->
+            <Polish>Wyrzuć %1</Polish>
+            <!-- AI translated -->
+            <Portuguese>Expulsar %1</Portuguese>
+            <!-- AI translated -->
+            <Russian>Выгнать %1</Russian>
+            <!-- AI translated -->
+            <German>%1 kicken</German>
+            <!-- AI translated -->
+            <Korean>%1 추방</Korean>
+            <!-- AI translated -->
+            <Japanese>%1 をキック</Japanese>
+            <!-- AI translated -->
+            <Chinese>踢出 %1</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>踢出 %1</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>%1 oyuncusunu at</Turkish>
+            <!-- AI translated -->
+            <Slovak>Vyhodiť %1</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Вигнати %1</Ukrainian>
+            <!-- AI translated -->
+            <Latin>%1 expelle</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Изгони %1</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>%1 kirúgása</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Sparka ut %1</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Izbaci %1</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Spark ut %1</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Henda %1 út</Icelandic>
+            <!-- AI translated -->
+            <Greek>Αποβολή %1</Greek>
+            <!-- AI translated -->
+            <Finnish>Potkaise %1</Finnish>
+            <!-- AI translated -->
+            <Dutch>%1 schoppen</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_CHAT_TELEPORT">
+            <Original>Teleport %1</Original>
+            <English>Teleport %1</English>
+            <!-- AI translated -->
+            <Czech>Teleportovat %1</Czech>
+            <!-- AI translated -->
+            <French>Téléporter %1</French>
+            <!-- AI translated -->
+            <Spanish>Teletransportar a %1</Spanish>
+            <!-- AI translated -->
+            <Italian>Teletrasporta %1</Italian>
+            <!-- AI translated -->
+            <Polish>Teleportuj %1</Polish>
+            <!-- AI translated -->
+            <Portuguese>Teletransportar %1</Portuguese>
+            <!-- AI translated -->
+            <Russian>Телепортировать %1</Russian>
+            <!-- AI translated -->
+            <German>%1 teleportieren</German>
+            <!-- AI translated -->
+            <Korean>%1 순간이동</Korean>
+            <!-- AI translated -->
+            <Japanese>%1 をテレポート</Japanese>
+            <!-- AI translated -->
+            <Chinese>傳送 %1</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>传送 %1</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>%1 konumuna ışınlan</Turkish>
+            <!-- AI translated -->
+            <Slovak>Teleportovať %1</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Телепортувати %1</Ukrainian>
+            <!-- AI translated -->
+            <Latin>%1 teleportato move</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Телепортирай %1</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>%1 teleportálása</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Teleportera %1</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Teleportiraj %1</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Teleporter %1</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Fjarskipta %1</Icelandic>
+            <!-- AI translated -->
+            <Greek>Τηλεμεταφορά %1</Greek>
+            <!-- AI translated -->
+            <Finnish>Teleporttaa %1</Finnish>
+            <!-- AI translated -->
+            <Dutch>%1 teleporteren</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_CHAT_TRACK">
+            <Original>Track %1</Original>
+            <English>Track %1</English>
+            <!-- AI translated -->
+            <Czech>Sledovat %1</Czech>
+            <!-- AI translated -->
+            <French>Suivre %1</French>
+            <!-- AI translated -->
+            <Spanish>Seguir a %1</Spanish>
+            <!-- AI translated -->
+            <Italian>Traccia %1</Italian>
+            <!-- AI translated -->
+            <Polish>Śledź %1</Polish>
+            <!-- AI translated -->
+            <Portuguese>Seguir %1</Portuguese>
+            <!-- AI translated -->
+            <Russian>Отслеживать %1</Russian>
+            <!-- AI translated -->
+            <German>%1 verfolgen</German>
+            <!-- AI translated -->
+            <Korean>%1 추적</Korean>
+            <!-- AI translated -->
+            <Japanese>%1 を追跡</Japanese>
+            <!-- AI translated -->
+            <Chinese>追蹤 %1</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>追踪 %1</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>%1 oyuncusunu izle</Turkish>
+            <!-- AI translated -->
+            <Slovak>Sledovať %1</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Відстежувати %1</Ukrainian>
+            <!-- AI translated -->
+            <Latin>%1 vestigare</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Проследи %1</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>%1 követése</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Spåra %1</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Prati %1</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Spor %1</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Fylgjast með %1</Icelandic>
+            <!-- AI translated -->
+            <Greek>Παρακολούθηση %1</Greek>
+            <!-- AI translated -->
+            <Finnish>Seuraa %1</Finnish>
+            <!-- AI translated -->
+            <Dutch>%1 volgen</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_CLIENT_FALLBACK">
+            <Original>Client %1</Original>
+            <English>Client %1</English>
+            <!-- AI translated -->
+            <Czech>Klient %1</Czech>
+            <!-- AI translated -->
+            <French>Client %1</French>
+            <!-- AI translated -->
+            <Spanish>Cliente %1</Spanish>
+            <!-- AI translated -->
+            <Italian>Client %1</Italian>
+            <!-- AI translated -->
+            <Polish>Klient %1</Polish>
+            <!-- AI translated -->
+            <Portuguese>Cliente %1</Portuguese>
+            <!-- AI translated -->
+            <Russian>Клиент %1</Russian>
+            <!-- AI translated -->
+            <German>Client %1</German>
+            <!-- AI translated -->
+            <Korean>클라이언트 %1</Korean>
+            <!-- AI translated -->
+            <Japanese>クライアント %1</Japanese>
+            <!-- AI translated -->
+            <Chinese>客戶 %1</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>客户端 %1</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>İstemci %1</Turkish>
+            <!-- AI translated -->
+            <Slovak>Klient %1</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Клієнт %1</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Cliens %1</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Клиент %1</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>%1 kliens</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Klient %1</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Klijent %1</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Klient %1</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Biðlari %1</Icelandic>
+            <!-- AI translated -->
+            <Greek>Πελάτης %1</Greek>
+            <!-- AI translated -->
+            <Finnish>Asiakas %1</Finnish>
+            <!-- AI translated -->
+            <Dutch>Client %1</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_LOADING_NEW_CLIENT">
+            <Original>New client connecting...</Original>
+            <English>New client connecting...</English>
+            <!-- AI translated -->
+            <Czech>Připojuje se nový klient...</Czech>
+            <!-- AI translated -->
+            <French>Nouveau client en cours de connexion...</French>
+            <!-- AI translated -->
+            <Spanish>Conectando nuevo cliente...</Spanish>
+            <!-- AI translated -->
+            <Italian>Connessione di un nuovo client...</Italian>
+            <!-- AI translated -->
+            <Polish>Łączenie nowego klienta...</Polish>
+            <!-- AI translated -->
+            <Portuguese>A ligar novo cliente...</Portuguese>
+            <!-- AI translated -->
+            <Russian>Подключение нового клиента...</Russian>
+            <!-- AI translated -->
+            <German>Neuer Client verbindet...</German>
+            <!-- AI translated -->
+            <Korean>새 클라이언트 연결 중...</Korean>
+            <!-- AI translated -->
+            <Japanese>新しいクライアントを接続中...</Japanese>
+            <!-- AI translated -->
+            <Chinese>正在連線新客戶...</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>正在连接新客户端...</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Yeni istemci bağlanıyor...</Turkish>
+            <!-- AI translated -->
+            <Slovak>Pripája sa nový klient...</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Підключення нового клієнта...</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Cliens novus coniungitur...</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Свързване на нов клиент...</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Új kliens csatlakozik...</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Ansluter ny klient...</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Povezivanje novog klijenta...</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Kobler til ny klient...</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Tengist nýjum biðlara...</Icelandic>
+            <!-- AI translated -->
+            <Greek>Σύνδεση νέου πελάτη...</Greek>
+            <!-- AI translated -->
+            <Finnish>Yhdistetään uutta asiakasta...</Finnish>
+            <!-- AI translated -->
+            <Dutch>Nieuwe client maakt verbinding...</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_LOADING_STARTING_SERVER">
+            <Original>Starting server...</Original>
+            <English>Starting server...</English>
+            <!-- AI translated -->
+            <Czech>Spouštění serveru...</Czech>
+            <!-- AI translated -->
+            <French>Démarrage du serveur...</French>
+            <!-- AI translated -->
+            <Spanish>Iniciando servidor...</Spanish>
+            <!-- AI translated -->
+            <Italian>Avvio del server...</Italian>
+            <!-- AI translated -->
+            <Polish>Uruchamianie serwera...</Polish>
+            <!-- AI translated -->
+            <Portuguese>A iniciar servidor...</Portuguese>
+            <!-- AI translated -->
+            <Russian>Запуск сервера...</Russian>
+            <!-- AI translated -->
+            <German>Server wird gestartet...</German>
+            <!-- AI translated -->
+            <Korean>서버 시작 중...</Korean>
+            <!-- AI translated -->
+            <Japanese>サーバーを起動中...</Japanese>
+            <!-- AI translated -->
+            <Chinese>正在啟動伺服器...</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>正在启动服务器...</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Sunucu başlatılıyor...</Turkish>
+            <!-- AI translated -->
+            <Slovak>Spúšťa sa server...</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Запуск сервера...</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Ministerium incipitur...</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Стартиране на сървъра...</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Szerver indítása...</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Startar servern...</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Pokretanje servera...</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Starter serveren...</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Ræsir netþjón...</Icelandic>
+            <!-- AI translated -->
+            <Greek>Εκκίνηση διακομιστή...</Greek>
+            <!-- AI translated -->
+            <Finnish>Käynnistetään palvelinta...</Finnish>
+            <!-- AI translated -->
+            <Dutch>Server wordt gestart...</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_NOTIFY_ALREADY_CONNECTED">
+            <Original>YOU ARE ALREADY CONNECTED</Original>
+            <English>YOU ARE ALREADY CONNECTED</English>
+            <!-- AI translated -->
+            <Czech>JIŽ JSTE PŘIPOJENI</Czech>
+            <!-- AI translated -->
+            <French>VOUS ÊTES DÉJÀ CONNECTÉ</French>
+            <!-- AI translated -->
+            <Spanish>YA ESTÁS CONECTADO</Spanish>
+            <!-- AI translated -->
+            <Italian>SEI GIÀ CONNESSO</Italian>
+            <!-- AI translated -->
+            <Polish>JUŻ JESTEŚ POŁĄCZONY</Polish>
+            <!-- AI translated -->
+            <Portuguese>JÁ ESTÁ LIGADO</Portuguese>
+            <!-- AI translated -->
+            <Russian>ВЫ УЖЕ ПОДКЛЮЧЕНЫ</Russian>
+            <!-- AI translated -->
+            <German>DU BIST BEREITS VERBUNDEN</German>
+            <!-- AI translated -->
+            <Korean>이미 연결되어 있습니다</Korean>
+            <!-- AI translated -->
+            <Japanese>すでに接続しています</Japanese>
+            <!-- AI translated -->
+            <Chinese>你已連線</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>你已连接</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>ZATEN BAĞLISINIZ</Turkish>
+            <!-- AI translated -->
+            <Slovak>UŽ STE PRIPOJENÍ</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>ВИ ВЖЕ ПІДКЛЮЧЕНІ</Ukrainian>
+            <!-- AI translated -->
+            <Latin>IAM CONIUNCTUS ES</Latin>
+            <!-- AI translated -->
+            <Bulgarian>ВЕЧЕ СТЕ СВЪРЗАНИ</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>MÁR CSATLAKOZTÁL</Hungarian>
+            <!-- AI translated -->
+            <Swedish>DU ÄR REDAN ANSLUTEN</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>VEĆ STE POVEZANI</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>DU ER ALLEREDE TILKOBLET</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>ÞÚ ERT ÞEGAR TENGDUR</Icelandic>
+            <!-- AI translated -->
+            <Greek>ΕΙΣΤΕ ΗΔΗ ΣΥΝΔΕΔΕΜΕΝΟΙ</Greek>
+            <!-- AI translated -->
+            <Finnish>OLET JO YHDISTETTY</Finnish>
+            <!-- AI translated -->
+            <Dutch>JE BENT AL VERBONDEN</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_NOTIFY_CONNECTED">
+            <Original>CONNECTED TO SERVER WITH ID: %1</Original>
+            <English>CONNECTED TO SERVER WITH ID: %1</English>
+            <!-- AI translated -->
+            <Czech>PŘIPOJENO K SERVERU S ID: %1</Czech>
+            <!-- AI translated -->
+            <French>CONNECTÉ AU SERVEUR AVEC L’ID : %1</French>
+            <!-- AI translated -->
+            <Spanish>CONECTADO AL SERVIDOR CON ID: %1</Spanish>
+            <!-- AI translated -->
+            <Italian>CONNESSO AL SERVER CON ID: %1</Italian>
+            <!-- AI translated -->
+            <Polish>POŁĄCZONO Z SERWEREM O ID: %1</Polish>
+            <!-- AI translated -->
+            <Portuguese>LIGADO AO SERVIDOR COM ID: %1</Portuguese>
+            <!-- AI translated -->
+            <Russian>ПОДКЛЮЧЕНО К СЕРВЕРУ С ID: %1</Russian>
+            <!-- AI translated -->
+            <German>MIT SERVER MIT ID %1 VERBUNDEN</German>
+            <!-- AI translated -->
+            <Korean>서버 ID %1에 연결됨</Korean>
+            <!-- AI translated -->
+            <Japanese>ID %1 のサーバーに接続しました</Japanese>
+            <!-- AI translated -->
+            <Chinese>已連線到 ID 為 %1 的伺服器</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>已连接到 ID 为 %1 的服务器</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>%1 KİMLİKLİ SUNUCUYA BAĞLANDI</Turkish>
+            <!-- AI translated -->
+            <Slovak>PRIPOJENÉ K SERVERU S ID: %1</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>ПІДКЛЮЧЕНО ДО СЕРВЕРА З ID: %1</Ukrainian>
+            <!-- AI translated -->
+            <Latin>CUM MINISTERIO ID %1 CONIUNCTUS</Latin>
+            <!-- AI translated -->
+            <Bulgarian>СВЪРЗАНИ СЪС СЪРВЪР С ID: %1</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>CSATLAKOZTÁL A SZERVERHEZ, AZONOSÍTÓ: %1</Hungarian>
+            <!-- AI translated -->
+            <Swedish>ANSLUTEN TILL SERVER MED ID: %1</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>POVEZANI NA SERVER S ID-OM: %1</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>TILKOBLET SERVER MED ID: %1</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>TENGDUR NETÞJÓNI MEÐ AUÐKENNI: %1</Icelandic>
+            <!-- AI translated -->
+            <Greek>ΣΥΝΔΕΘΗΚΑΤΕ ΣΤΟΝ ΔΙΑΚΟΜΙΣΤΗ ΜΕ ID: %1</Greek>
+            <!-- AI translated -->
+            <Finnish>YHDISTETTY PALVELIMEEN, TUNNUS: %1</Finnish>
+            <!-- AI translated -->
+            <Dutch>VERBONDEN MET SERVER MET ID: %1</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_NOTIFY_DISCONNECTED">
+            <Original>You disconnected!</Original>
+            <English>You disconnected!</English>
+            <!-- AI translated -->
+            <Czech>Byli jste odpojeni!</Czech>
+            <!-- AI translated -->
+            <French>Vous êtes déconnecté !</French>
+            <!-- AI translated -->
+            <Spanish>¡Te has desconectado!</Spanish>
+            <!-- AI translated -->
+            <Italian>Ti sei disconnesso!</Italian>
+            <!-- AI translated -->
+            <Polish>Rozłączono!</Polish>
+            <!-- AI translated -->
+            <Portuguese>Desligou-se!</Portuguese>
+            <!-- AI translated -->
+            <Russian>Вы отключились!</Russian>
+            <!-- AI translated -->
+            <German>Du wurdest getrennt!</German>
+            <!-- AI translated -->
+            <Korean>연결이 해제되었습니다!</Korean>
+            <!-- AI translated -->
+            <Japanese>切断されました！</Japanese>
+            <!-- AI translated -->
+            <Chinese>你已中斷連線！</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>你已断开连接！</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Bağlantınız kesildi!</Turkish>
+            <!-- AI translated -->
+            <Slovak>Boli ste odpojení!</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Ви відключилися!</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Disiunctus es!</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Връзката ви е прекъсната!</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Lecsatlakoztál!</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Du kopplades från!</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Prekinuli ste vezu!</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Du ble frakoblet!</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Þú aftengdist!</Icelandic>
+            <!-- AI translated -->
+            <Greek>Αποσυνδεθήκατε!</Greek>
+            <!-- AI translated -->
+            <Finnish>Yhteytesi katkesi!</Finnish>
+            <!-- AI translated -->
+            <Dutch>Je verbinding is verbroken!</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_NOTIFY_DISCONNECTED_REASON">
+            <Original>You disconnected! Reason: %1</Original>
+            <English>You disconnected! Reason: %1</English>
+            <!-- AI translated -->
+            <Czech>Byli jste odpojeni! Důvod: %1</Czech>
+            <!-- AI translated -->
+            <French>Vous êtes déconnecté ! Raison : %1</French>
+            <!-- AI translated -->
+            <Spanish>¡Te has desconectado! Motivo: %1</Spanish>
+            <!-- AI translated -->
+            <Italian>Ti sei disconnesso! Motivo: %1</Italian>
+            <!-- AI translated -->
+            <Polish>Rozłączono! Powód: %1</Polish>
+            <!-- AI translated -->
+            <Portuguese>Desligou-se! Motivo: %1</Portuguese>
+            <!-- AI translated -->
+            <Russian>Вы отключились! Причина: %1</Russian>
+            <!-- AI translated -->
+            <German>Du wurdest getrennt! Grund: %1</German>
+            <!-- AI translated -->
+            <Korean>연결이 해제되었습니다! 사유: %1</Korean>
+            <!-- AI translated -->
+            <Japanese>切断されました！理由: %1</Japanese>
+            <!-- AI translated -->
+            <Chinese>你已中斷連線！原因：%1</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>你已断开连接！原因：%1</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Bağlantınız kesildi! Sebep: %1</Turkish>
+            <!-- AI translated -->
+            <Slovak>Boli ste odpojení! Dôvod: %1</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Ви відключилися! Причина: %1</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Disiunctus es! Causa: %1</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Връзката ви е прекъсната! Причина: %1</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Lecsatlakoztál! Ok: %1</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Du kopplades från! Orsak: %1</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Prekinuli ste vezu! Razlog: %1</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Du ble frakoblet! Årsak: %1</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Þú aftengdist! Ástæða: %1</Icelandic>
+            <!-- AI translated -->
+            <Greek>Αποσυνδεθήκατε! Αιτία: %1</Greek>
+            <!-- AI translated -->
+            <Finnish>Yhteytesi katkesi! Syy: %1</Finnish>
+            <!-- AI translated -->
+            <Dutch>Je verbinding is verbroken! Reden: %1</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_NOTIFY_EXTENSION_FUNCTION_MISSING">
+            <Original>EdenOnline EOEX_fnc_initExtension function not found!</Original>
+            <English>EdenOnline EOEX_fnc_initExtension function not found!</English>
+            <!-- AI translated -->
+            <Czech>Funkce EdenOnline EOEX_fnc_initExtension nebyla nalezena!</Czech>
+            <!-- AI translated -->
+            <French>Fonction EdenOnline EOEX_fnc_initExtension introuvable !</French>
+            <!-- AI translated -->
+            <Spanish>¡No se encontró la función EdenOnline EOEX_fnc_initExtension!</Spanish>
+            <!-- AI translated -->
+            <Italian>Funzione EdenOnline EOEX_fnc_initExtension non trovata!</Italian>
+            <!-- AI translated -->
+            <Polish>Nie znaleziono funkcji EdenOnline EOEX_fnc_initExtension!</Polish>
+            <!-- AI translated -->
+            <Portuguese>Função EdenOnline EOEX_fnc_initExtension não encontrada!</Portuguese>
+            <!-- AI translated -->
+            <Russian>Функция EdenOnline EOEX_fnc_initExtension не найдена!</Russian>
+            <!-- AI translated -->
+            <German>EdenOnline-Funktion EOEX_fnc_initExtension nicht gefunden!</German>
+            <!-- AI translated -->
+            <Korean>EdenOnline EOEX_fnc_initExtension 함수를 찾을 수 없습니다!</Korean>
+            <!-- AI translated -->
+            <Japanese>EdenOnline EOEX_fnc_initExtension 関数が見つかりません！</Japanese>
+            <!-- AI translated -->
+            <Chinese>找不到 EdenOnline EOEX_fnc_initExtension 函式！</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>未找到 EdenOnline EOEX_fnc_initExtension 函数！</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>EdenOnline EOEX_fnc_initExtension işlevi bulunamadı!</Turkish>
+            <!-- AI translated -->
+            <Slovak>Funkcia EdenOnline EOEX_fnc_initExtension sa nenašla!</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Функцію EdenOnline EOEX_fnc_initExtension не знайдено!</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Munus EdenOnline EOEX_fnc_initExtension non inventum!</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Функцията EdenOnline EOEX_fnc_initExtension не е намерена!</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Az EdenOnline EOEX_fnc_initExtension függvény nem található!</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Funktionen EdenOnline EOEX_fnc_initExtension hittades inte!</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Funkcija EdenOnline EOEX_fnc_initExtension nije pronađena!</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Fant ikke EdenOnline-funksjonen EOEX_fnc_initExtension!</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>EdenOnline-aðgerðin EOEX_fnc_initExtension fannst ekki!</Icelandic>
+            <!-- AI translated -->
+            <Greek>Δεν βρέθηκε η συνάρτηση EdenOnline EOEX_fnc_initExtension!</Greek>
+            <!-- AI translated -->
+            <Finnish>EdenOnline-funktiota EOEX_fnc_initExtension ei löydy!</Finnish>
+            <!-- AI translated -->
+            <Dutch>EdenOnline-functie EOEX_fnc_initExtension niet gevonden!</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_NOTIFY_EXTENSION_INIT_FAILED">
+            <Original>EdenOnline extension failed to initialize. Please check the RPT log for details.</Original>
+            <English>EdenOnline extension failed to initialize. Please check the RPT log for details.</English>
+            <!-- AI translated -->
+            <Czech>Rozšíření EdenOnline se nepodařilo inicializovat. Podrobnosti najdete v protokolu RPT.</Czech>
+            <!-- AI translated -->
+            <French>L’extension EdenOnline n’a pas pu s’initialiser. Consultez le journal RPT pour plus de détails.</French>
+            <!-- AI translated -->
+            <Spanish>La extensión EdenOnline no se pudo inicializar. Consulta el registro RPT para más detalles.</Spanish>
+            <!-- AI translated -->
+            <Italian>Impossibile inizializzare l’estensione EdenOnline. Consulta il registro RPT per i dettagli.</Italian>
+            <!-- AI translated -->
+            <Polish>Nie udało się zainicjować rozszerzenia EdenOnline. Szczegóły znajdziesz w dzienniku RPT.</Polish>
+            <!-- AI translated -->
+            <Portuguese>A extensão EdenOnline não foi inicializada. Consulte o registo RPT para obter detalhes.</Portuguese>
+            <!-- AI translated -->
+            <Russian>Не удалось инициализировать расширение EdenOnline. Подробности смотрите в журнале RPT.</Russian>
+            <!-- AI translated -->
+            <German>EdenOnline-Erweiterung konnte nicht initialisiert werden. Details stehen im RPT-Protokoll.</German>
+            <!-- AI translated -->
+            <Korean>EdenOnline 확장을 초기화하지 못했습니다. 자세한 내용은 RPT 로그를 확인하세요.</Korean>
+            <!-- AI translated -->
+            <Japanese>EdenOnline 拡張機能を初期化できませんでした。詳細は RPT ログを確認してください。</Japanese>
+            <!-- AI translated -->
+            <Chinese>EdenOnline 擴充功能初始化失敗。詳情請查看 RPT 日誌。</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>EdenOnline 扩展初始化失败。详情请查看 RPT 日志。</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>EdenOnline uzantısı başlatılamadı. Ayrıntılar için RPT günlüğünü kontrol edin.</Turkish>
+            <!-- AI translated -->
+            <Slovak>Rozšírenie EdenOnline sa nepodarilo inicializovať. Podrobnosti nájdete v protokole RPT.</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Не вдалося ініціалізувати розширення EdenOnline. Подробиці дивіться у журналі RPT.</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Extensio EdenOnline initiari non potuit. Rationes in actis RPT vide.</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Разширението EdenOnline не успя да се инициализира. Проверете RPT дневника за подробности.</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Az EdenOnline bővítmény inicializálása nem sikerült. Részletek az RPT-naplóban.</Hungarian>
+            <!-- AI translated -->
+            <Swedish>EdenOnline-tillägget kunde inte initieras. Se RPT-loggen för mer information.</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Inicijalizacija EdenOnline proširenja nije uspjela. Za detalje pogledajte RPT zapis.</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>EdenOnline-utvidelsen kunne ikke startes. Se RPT-loggen for detaljer.</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Ekki tókst að frumstilla EdenOnline-viðbótina. Skoðaðu RPT-skrána fyrir nánari upplýsingar.</Icelandic>
+            <!-- AI translated -->
+            <Greek>Η επέκταση EdenOnline απέτυχε να αρχικοποιηθεί. Δείτε το αρχείο καταγραφής RPT για λεπτομέρειες.</Greek>
+            <!-- AI translated -->
+            <Finnish>EdenOnline-laajennuksen alustus epäonnistui. Katso lisätiedot RPT-lokista.</Finnish>
+            <!-- AI translated -->
+            <Dutch>De EdenOnline-extensie kon niet worden geïnitialiseerd. Raadpleeg het RPT-logboek voor meer informatie.</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_NOTIFY_SERVER_SHUTDOWN">
+            <Original>Server was shutdown!</Original>
+            <English>Server was shutdown!</English>
+            <!-- AI translated -->
+            <Czech>Server byl vypnut!</Czech>
+            <!-- AI translated -->
+            <French>Le serveur a été arrêté !</French>
+            <!-- AI translated -->
+            <Spanish>¡El servidor se ha apagado!</Spanish>
+            <!-- AI translated -->
+            <Italian>Il server è stato arrestato!</Italian>
+            <!-- AI translated -->
+            <Polish>Serwer został wyłączony!</Polish>
+            <!-- AI translated -->
+            <Portuguese>O servidor foi encerrado!</Portuguese>
+            <!-- AI translated -->
+            <Russian>Сервер был остановлен!</Russian>
+            <!-- AI translated -->
+            <German>Server wurde heruntergefahren!</German>
+            <!-- AI translated -->
+            <Korean>서버가 종료되었습니다!</Korean>
+            <!-- AI translated -->
+            <Japanese>サーバーがシャットダウンしました！</Japanese>
+            <!-- AI translated -->
+            <Chinese>伺服器已關閉！</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>服务器已关闭！</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Sunucu kapatıldı!</Turkish>
+            <!-- AI translated -->
+            <Slovak>Server bol vypnutý!</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Сервер було вимкнено!</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Ministerium clausum est!</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Сървърът беше изключен!</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>A szerver leállt!</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Servern har stängts av!</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Server je ugašen!</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Serveren ble slått av!</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Slökkt var á netþjóninum!</Icelandic>
+            <!-- AI translated -->
+            <Greek>Ο διακομιστής τερματίστηκε!</Greek>
+            <!-- AI translated -->
+            <Finnish>Palvelin sammutettiin!</Finnish>
+            <!-- AI translated -->
+            <Dutch>Server is afgesloten!</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_NOTIFY_SERVER_SHUTDOWN_REASON">
+            <Original>Server was shutdown! Reason: %1</Original>
+            <English>Server was shutdown! Reason: %1</English>
+            <!-- AI translated -->
+            <Czech>Server byl vypnut! Důvod: %1</Czech>
+            <!-- AI translated -->
+            <French>Le serveur a été arrêté ! Raison : %1</French>
+            <!-- AI translated -->
+            <Spanish>¡El servidor se ha apagado! Motivo: %1</Spanish>
+            <!-- AI translated -->
+            <Italian>Il server è stato arrestato! Motivo: %1</Italian>
+            <!-- AI translated -->
+            <Polish>Serwer został wyłączony! Powód: %1</Polish>
+            <!-- AI translated -->
+            <Portuguese>O servidor foi encerrado! Motivo: %1</Portuguese>
+            <!-- AI translated -->
+            <Russian>Сервер был остановлен! Причина: %1</Russian>
+            <!-- AI translated -->
+            <German>Server wurde heruntergefahren! Grund: %1</German>
+            <!-- AI translated -->
+            <Korean>서버가 종료되었습니다! 사유: %1</Korean>
+            <!-- AI translated -->
+            <Japanese>サーバーがシャットダウンしました！理由: %1</Japanese>
+            <!-- AI translated -->
+            <Chinese>伺服器已關閉！原因：%1</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>服务器已关闭！原因：%1</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Sunucu kapatıldı! Sebep: %1</Turkish>
+            <!-- AI translated -->
+            <Slovak>Server bol vypnutý! Dôvod: %1</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Сервер було вимкнено! Причина: %1</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Ministerium clausum est! Causa: %1</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Сървърът беше изключен! Причина: %1</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>A szerver leállt! Ok: %1</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Servern har stängts av! Orsak: %1</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Server je ugašen! Razlog: %1</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Serveren ble slått av! Årsak: %1</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Slökkt var á netþjóninum! Ástæða: %1</Icelandic>
+            <!-- AI translated -->
+            <Greek>Ο διακομιστής τερματίστηκε! Αιτία: %1</Greek>
+            <!-- AI translated -->
+            <Finnish>Palvelin sammutettiin! Syy: %1</Finnish>
+            <!-- AI translated -->
+            <Dutch>Server is afgesloten! Reden: %1</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_NOTIFY_SYNC_TIMEOUT">
+            <Original>Server sync timed out!</Original>
+            <English>Server sync timed out!</English>
+            <!-- AI translated -->
+            <Czech>Vypršel čas synchronizace serveru!</Czech>
+            <!-- AI translated -->
+            <French>Délai de synchronisation du serveur dépassé !</French>
+            <!-- AI translated -->
+            <Spanish>Se agotó el tiempo de sincronización del servidor.</Spanish>
+            <!-- AI translated -->
+            <Italian>Timeout della sincronizzazione del server!</Italian>
+            <!-- AI translated -->
+            <Polish>Przekroczono limit czasu synchronizacji serwera!</Polish>
+            <!-- AI translated -->
+            <Portuguese>Tempo limite de sincronização do servidor excedido!</Portuguese>
+            <!-- AI translated -->
+            <Russian>Истекло время ожидания синхронизации сервера!</Russian>
+            <!-- AI translated -->
+            <German>Zeitüberschreitung bei der Serversynchronisierung!</German>
+            <!-- AI translated -->
+            <Korean>서버 동기화 시간 초과!</Korean>
+            <!-- AI translated -->
+            <Japanese>サーバーの同期がタイムアウトしました！</Japanese>
+            <!-- AI translated -->
+            <Chinese>伺服器同步逾時！</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>服务器同步超时！</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Sunucu eşitlemesi zaman aşımına uğradı!</Turkish>
+            <!-- AI translated -->
+            <Slovak>Vypršal čas synchronizácie servera!</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Час очікування синхронізації сервера минув!</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Tempus synchronisationis ministerii excessit!</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Времето за синхронизация със сървъра изтече!</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>A szerver szinkronizálása időtúllépés miatt megszakadt!</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Tidsgränsen för serversynkronisering överskreds!</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Isteklo je vrijeme za sinkronizaciju servera!</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Tidsavbrudd for serversynkronisering!</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Tími til samstillingar netþjóns rann út!</Icelandic>
+            <!-- AI translated -->
+            <Greek>Έληξε το χρονικό όριο συγχρονισμού διακομιστή!</Greek>
+            <!-- AI translated -->
+            <Finnish>Palvelimen synkronoinnin aikakatkaisu!</Finnish>
+            <!-- AI translated -->
+            <Dutch>Time-out bij serversynchronisatie!</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_UI_CANCEL">
+            <Original>Cancel</Original>
+            <English>Cancel</English>
+            <!-- AI translated -->
+            <Czech>Zrušit</Czech>
+            <!-- AI translated -->
+            <French>Annuler</French>
+            <!-- AI translated -->
+            <Spanish>Cancelar</Spanish>
+            <!-- AI translated -->
+            <Italian>Annulla</Italian>
+            <!-- AI translated -->
+            <Polish>Anuluj</Polish>
+            <!-- AI translated -->
+            <Portuguese>Cancelar</Portuguese>
+            <!-- AI translated -->
+            <Russian>Отмена</Russian>
+            <!-- AI translated -->
+            <German>Abbrechen</German>
+            <!-- AI translated -->
+            <Korean>취소</Korean>
+            <!-- AI translated -->
+            <Japanese>キャンセル</Japanese>
+            <!-- AI translated -->
+            <Chinese>取消</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>取消</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>İptal</Turkish>
+            <!-- AI translated -->
+            <Slovak>Zrušiť</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Скасувати</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Abrogare</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Отказ</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Mégse</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Avbryt</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Odustani</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Avbryt</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Hætta við</Icelandic>
+            <!-- AI translated -->
+            <Greek>Ακύρωση</Greek>
+            <!-- AI translated -->
+            <Finnish>Peruuta</Finnish>
+            <!-- AI translated -->
+            <Dutch>Annuleren</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_UI_CANNOT_PREVIEW">
+            <Original>You cannot preview the mission while connected to EdenOnline.</Original>
+            <English>You cannot preview the mission while connected to EdenOnline.</English>
+            <!-- AI translated -->
+            <Czech>Během připojení k EdenOnline nemůžete zobrazit náhled mise.</Czech>
+            <!-- AI translated -->
+            <French>Vous ne pouvez pas prévisualiser la mission lorsque vous êtes connecté à EdenOnline.</French>
+            <!-- AI translated -->
+            <Spanish>No puedes previsualizar la misión mientras estás conectado a EdenOnline.</Spanish>
+            <!-- AI translated -->
+            <Italian>Non puoi visualizzare l’anteprima della missione mentre sei connesso a EdenOnline.</Italian>
+            <!-- AI translated -->
+            <Polish>Nie możesz wyświetlić podglądu misji podczas połączenia z EdenOnline.</Polish>
+            <!-- AI translated -->
+            <Portuguese>Não pode pré-visualizar a missão enquanto estiver ligado ao EdenOnline.</Portuguese>
+            <!-- AI translated -->
+            <Russian>Нельзя просматривать миссию при подключении к EdenOnline.</Russian>
+            <!-- AI translated -->
+            <German>Du kannst die Mission nicht in der Vorschau ansehen, während du mit EdenOnline verbunden bist.</German>
+            <!-- AI translated -->
+            <Korean>EdenOnline에 연결된 동안 임무를 미리 볼 수 없습니다.</Korean>
+            <!-- AI translated -->
+            <Japanese>EdenOnline に接続中はミッションをプレビューできません。</Japanese>
+            <!-- AI translated -->
+            <Chinese>連線到 EdenOnline 時無法預覽任務。</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>连接到 EdenOnline 时无法预览任务。</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>EdenOnline'a bağlıyken görevi önizleyemezsiniz.</Turkish>
+            <!-- AI translated -->
+            <Slovak>Počas pripojenia k EdenOnline nemôžete zobraziť ukážku misie.</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Не можна переглядати місію під час підключення до EdenOnline.</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Missionem praevidere non potes dum EdenOnline coniunctus es.</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Не можете да прегледате мисията, докато сте свързани с EdenOnline.</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>EdenOnline-kapcsolat közben nem tekintheted meg előnézetben a küldetést.</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Du kan inte förhandsvisa uppdraget när du är ansluten till EdenOnline.</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Ne možete pregledati misiju dok ste povezani na EdenOnline.</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Du kan ikke forhåndsvise oppdraget mens du er tilkoblet EdenOnline.</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Þú getur ekki forskoðað verkefnið meðan þú ert tengdur EdenOnline.</Icelandic>
+            <!-- AI translated -->
+            <Greek>Δεν μπορείτε να κάνετε προεπισκόπηση της αποστολής ενώ είστε συνδεδεμένοι στο EdenOnline.</Greek>
+            <!-- AI translated -->
+            <Finnish>Et voi esikatsella tehtävää ollessasi yhteydessä EdenOnlineen.</Finnish>
+            <!-- AI translated -->
+            <Dutch>Je kunt de missie niet vooraf bekijken terwijl je verbonden bent met EdenOnline.</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_UI_CONNECT">
+            <Original>Connect</Original>
+            <English>Connect</English>
+            <!-- AI translated -->
+            <Czech>Připojit</Czech>
+            <!-- AI translated -->
+            <French>Connecter</French>
+            <!-- AI translated -->
+            <Spanish>Conectar</Spanish>
+            <!-- AI translated -->
+            <Italian>Connetti</Italian>
+            <!-- AI translated -->
+            <Polish>Połącz</Polish>
+            <!-- AI translated -->
+            <Portuguese>Ligar</Portuguese>
+            <!-- AI translated -->
+            <Russian>Подключиться</Russian>
+            <!-- AI translated -->
+            <German>Verbinden</German>
+            <!-- AI translated -->
+            <Korean>연결</Korean>
+            <!-- AI translated -->
+            <Japanese>接続</Japanese>
+            <!-- AI translated -->
+            <Chinese>連線</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>连接</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Bağlan</Turkish>
+            <!-- AI translated -->
+            <Slovak>Pripojiť</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Підключитися</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Coniungere</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Свързване</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Csatlakozás</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Anslut</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Poveži</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Koble til</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Tengjast</Icelandic>
+            <!-- AI translated -->
+            <Greek>Σύνδεση</Greek>
+            <!-- AI translated -->
+            <Finnish>Yhdistä</Finnish>
+            <!-- AI translated -->
+            <Dutch>Verbinden</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_UI_DISCONNECT">
+            <Original>Disconnect</Original>
+            <English>Disconnect</English>
+            <!-- AI translated -->
+            <Czech>Odpojit</Czech>
+            <!-- AI translated -->
+            <French>Déconnecter</French>
+            <!-- AI translated -->
+            <Spanish>Desconectar</Spanish>
+            <!-- AI translated -->
+            <Italian>Disconnetti</Italian>
+            <!-- AI translated -->
+            <Polish>Rozłącz</Polish>
+            <!-- AI translated -->
+            <Portuguese>Desligar</Portuguese>
+            <!-- AI translated -->
+            <Russian>Отключиться</Russian>
+            <!-- AI translated -->
+            <German>Trennen</German>
+            <!-- AI translated -->
+            <Korean>연결 해제</Korean>
+            <!-- AI translated -->
+            <Japanese>切断</Japanese>
+            <!-- AI translated -->
+            <Chinese>中斷連線</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>断开连接</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Bağlantıyı kes</Turkish>
+            <!-- AI translated -->
+            <Slovak>Odpojiť</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Відключитися</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Disiungere</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Прекъсване</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Lecsatlakozás</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Koppla från</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Prekini vezu</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Koble fra</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Aftengjast</Icelandic>
+            <!-- AI translated -->
+            <Greek>Αποσύνδεση</Greek>
+            <!-- AI translated -->
+            <Finnish>Katkaise yhteys</Finnish>
+            <!-- AI translated -->
+            <Dutch>Verbinding verbreken</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_UI_HOST">
+            <Original>Host:</Original>
+            <English>Host:</English>
+            <!-- AI translated -->
+            <Czech>Hostitel:</Czech>
+            <!-- AI translated -->
+            <French>Hôte :</French>
+            <!-- AI translated -->
+            <Spanish>Anfitrión:</Spanish>
+            <!-- AI translated -->
+            <Italian>Host:</Italian>
+            <!-- AI translated -->
+            <Polish>Host:</Polish>
+            <!-- AI translated -->
+            <Portuguese>Anfitrião:</Portuguese>
+            <!-- AI translated -->
+            <Russian>Хост:</Russian>
+            <!-- AI translated -->
+            <German>Host:</German>
+            <!-- AI translated -->
+            <Korean>호스트:</Korean>
+            <!-- AI translated -->
+            <Japanese>ホスト:</Japanese>
+            <!-- AI translated -->
+            <Chinese>主機：</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>主机：</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Sunucu sahibi:</Turkish>
+            <!-- AI translated -->
+            <Slovak>Hostiteľ:</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Хост:</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Hospes:</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Хост:</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Gazda:</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Värd:</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Domaćin:</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Vert:</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Gestgjafi:</Icelandic>
+            <!-- AI translated -->
+            <Greek>Οικοδεσπότης:</Greek>
+            <!-- AI translated -->
+            <Finnish>Isäntä:</Finnish>
+            <!-- AI translated -->
+            <Dutch>Host:</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_UI_HOST_SERVER">
+            <Original>Host Server</Original>
+            <English>Host Server</English>
+            <!-- AI translated -->
+            <Czech>Hostovat server</Czech>
+            <!-- AI translated -->
+            <French>Héberger le serveur</French>
+            <!-- AI translated -->
+            <Spanish>Alojar servidor</Spanish>
+            <!-- AI translated -->
+            <Italian>Ospita server</Italian>
+            <!-- AI translated -->
+            <Polish>Hostuj serwer</Polish>
+            <!-- AI translated -->
+            <Portuguese>Alojar servidor</Portuguese>
+            <!-- AI translated -->
+            <Russian>Запустить сервер</Russian>
+            <!-- AI translated -->
+            <German>Server hosten</German>
+            <!-- AI translated -->
+            <Korean>서버 호스팅</Korean>
+            <!-- AI translated -->
+            <Japanese>サーバーをホスト</Japanese>
+            <!-- AI translated -->
+            <Chinese>託管伺服器</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>主持服务器</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Sunucu barındır</Turkish>
+            <!-- AI translated -->
+            <Slovak>Hostovať server</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Запустити сервер</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Ministerium hospitio accipere</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Хостване на сървър</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Szerver üzemeltetése</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Var värd för server</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Ugosti server</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Vert for server</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Hýsa netþjón</Icelandic>
+            <!-- AI translated -->
+            <Greek>Φιλοξενία διακομιστή</Greek>
+            <!-- AI translated -->
+            <Finnish>Isännöi palvelinta</Finnish>
+            <!-- AI translated -->
+            <Dutch>Server hosten</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_UI_KICK">
+            <Original>Kick</Original>
+            <English>Kick</English>
+            <!-- AI translated -->
+            <Czech>Vyhodit</Czech>
+            <!-- AI translated -->
+            <French>Expulser</French>
+            <!-- AI translated -->
+            <Spanish>Expulsar</Spanish>
+            <!-- AI translated -->
+            <Italian>Espelli</Italian>
+            <!-- AI translated -->
+            <Polish>Wyrzuć</Polish>
+            <!-- AI translated -->
+            <Portuguese>Expulsar</Portuguese>
+            <!-- AI translated -->
+            <Russian>Выгнать</Russian>
+            <!-- AI translated -->
+            <German>Kicken</German>
+            <!-- AI translated -->
+            <Korean>추방</Korean>
+            <!-- AI translated -->
+            <Japanese>キック</Japanese>
+            <!-- AI translated -->
+            <Chinese>踢出</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>踢出</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>At</Turkish>
+            <!-- AI translated -->
+            <Slovak>Vyhodiť</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Вигнати</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Expellere</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Изгони</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Kirúgás</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Sparka ut</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Izbaci</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Spark ut</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Henda út</Icelandic>
+            <!-- AI translated -->
+            <Greek>Αποβολή</Greek>
+            <!-- AI translated -->
+            <Finnish>Potkaise</Finnish>
+            <!-- AI translated -->
+            <Dutch>Schoppen</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_UI_NO">
+            <Original>No</Original>
+            <English>No</English>
+            <!-- AI translated -->
+            <Czech>Ne</Czech>
+            <!-- AI translated -->
+            <French>Non</French>
+            <!-- AI translated -->
+            <Spanish>No</Spanish>
+            <!-- AI translated -->
+            <Italian>No</Italian>
+            <!-- AI translated -->
+            <Polish>Nie</Polish>
+            <!-- AI translated -->
+            <Portuguese>Não</Portuguese>
+            <!-- AI translated -->
+            <Russian>Нет</Russian>
+            <!-- AI translated -->
+            <German>Nein</German>
+            <!-- AI translated -->
+            <Korean>아니요</Korean>
+            <!-- AI translated -->
+            <Japanese>いいえ</Japanese>
+            <!-- AI translated -->
+            <Chinese>否</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>否</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Hayır</Turkish>
+            <!-- AI translated -->
+            <Slovak>Nie</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Ні</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Non</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Не</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Nem</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Nej</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Ne</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Nei</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Nei</Icelandic>
+            <!-- AI translated -->
+            <Greek>Όχι</Greek>
+            <!-- AI translated -->
+            <Finnish>Ei</Finnish>
+            <!-- AI translated -->
+            <Dutch>Nee</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_UI_PASSWORD">
+            <Original>Password:</Original>
+            <English>Password:</English>
+            <!-- AI translated -->
+            <Czech>Heslo:</Czech>
+            <!-- AI translated -->
+            <French>Mot de passe :</French>
+            <!-- AI translated -->
+            <Spanish>Contraseña:</Spanish>
+            <!-- AI translated -->
+            <Italian>Password:</Italian>
+            <!-- AI translated -->
+            <Polish>Hasło:</Polish>
+            <!-- AI translated -->
+            <Portuguese>Palavra-passe:</Portuguese>
+            <!-- AI translated -->
+            <Russian>Пароль:</Russian>
+            <!-- AI translated -->
+            <German>Passwort:</German>
+            <!-- AI translated -->
+            <Korean>비밀번호:</Korean>
+            <!-- AI translated -->
+            <Japanese>パスワード:</Japanese>
+            <!-- AI translated -->
+            <Chinese>密碼：</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>密码：</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Parola:</Turkish>
+            <!-- AI translated -->
+            <Slovak>Heslo:</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Пароль:</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Tessera:</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Парола:</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Jelszó:</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Lösenord:</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Lozinka:</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Passord:</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Lykilorð:</Icelandic>
+            <!-- AI translated -->
+            <Greek>Κωδικός πρόσβασης:</Greek>
+            <!-- AI translated -->
+            <Finnish>Salasana:</Finnish>
+            <!-- AI translated -->
+            <Dutch>Wachtwoord:</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_UI_PORT">
+            <Original>Port:</Original>
+            <English>Port:</English>
+            <!-- AI translated -->
+            <Czech>Port:</Czech>
+            <!-- AI translated -->
+            <French>Port :</French>
+            <!-- AI translated -->
+            <Spanish>Puerto:</Spanish>
+            <!-- AI translated -->
+            <Italian>Porta:</Italian>
+            <!-- AI translated -->
+            <Polish>Port:</Polish>
+            <!-- AI translated -->
+            <Portuguese>Porta:</Portuguese>
+            <!-- AI translated -->
+            <Russian>Порт:</Russian>
+            <!-- AI translated -->
+            <German>Port:</German>
+            <!-- AI translated -->
+            <Korean>포트:</Korean>
+            <!-- AI translated -->
+            <Japanese>ポート:</Japanese>
+            <!-- AI translated -->
+            <Chinese>連接埠：</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>端口：</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Bağlantı noktası:</Turkish>
+            <!-- AI translated -->
+            <Slovak>Port:</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Порт:</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Portus:</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Порт:</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Port:</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Port:</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Port:</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Port:</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Gátt:</Icelandic>
+            <!-- AI translated -->
+            <Greek>Θύρα:</Greek>
+            <!-- AI translated -->
+            <Finnish>Portti:</Finnish>
+            <!-- AI translated -->
+            <Dutch>Poort:</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_UI_SERVER_SETTINGS">
+            <Original>Server Settings</Original>
+            <English>Server Settings</English>
+            <!-- AI translated -->
+            <Czech>Nastavení serveru</Czech>
+            <!-- AI translated -->
+            <French>Paramètres du serveur</French>
+            <!-- AI translated -->
+            <Spanish>Configuración del servidor</Spanish>
+            <!-- AI translated -->
+            <Italian>Impostazioni server</Italian>
+            <!-- AI translated -->
+            <Polish>Ustawienia serwera</Polish>
+            <!-- AI translated -->
+            <Portuguese>Definições do servidor</Portuguese>
+            <!-- AI translated -->
+            <Russian>Настройки сервера</Russian>
+            <!-- AI translated -->
+            <German>Servereinstellungen</German>
+            <!-- AI translated -->
+            <Korean>서버 설정</Korean>
+            <!-- AI translated -->
+            <Japanese>サーバー設定</Japanese>
+            <!-- AI translated -->
+            <Chinese>伺服器設定</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>服务器设置</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Sunucu ayarları</Turkish>
+            <!-- AI translated -->
+            <Slovak>Nastavenia servera</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Налаштування сервера</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Praeferentiae ministerii</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Настройки на сървъра</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Szerverbeállítások</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Serverinställningar</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Postavke servera</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Serverinnstillinger</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Stillingar netþjóns</Icelandic>
+            <!-- AI translated -->
+            <Greek>Ρυθμίσεις διακομιστή</Greek>
+            <!-- AI translated -->
+            <Finnish>Palvelimen asetukset</Finnish>
+            <!-- AI translated -->
+            <Dutch>Serverinstellingen</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_UI_TELEPORT">
+            <Original>Teleport</Original>
+            <English>Teleport</English>
+            <!-- AI translated -->
+            <Czech>Teleportovat</Czech>
+            <!-- AI translated -->
+            <French>Téléporter</French>
+            <!-- AI translated -->
+            <Spanish>Teletransportar</Spanish>
+            <!-- AI translated -->
+            <Italian>Teletrasporta</Italian>
+            <!-- AI translated -->
+            <Polish>Teleportuj</Polish>
+            <!-- AI translated -->
+            <Portuguese>Teletransportar</Portuguese>
+            <!-- AI translated -->
+            <Russian>Телепортировать</Russian>
+            <!-- AI translated -->
+            <German>Teleportieren</German>
+            <!-- AI translated -->
+            <Korean>순간이동</Korean>
+            <!-- AI translated -->
+            <Japanese>テレポート</Japanese>
+            <!-- AI translated -->
+            <Chinese>傳送</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>传送</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Işınlan</Turkish>
+            <!-- AI translated -->
+            <Slovak>Teleportovať</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Телепортувати</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Teleportato movere</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Телепортиране</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Teleportálás</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Teleportera</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Teleportiraj</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Teleporter</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Fjarskipta</Icelandic>
+            <!-- AI translated -->
+            <Greek>Τηλεμεταφορά</Greek>
+            <!-- AI translated -->
+            <Finnish>Teleporttaa</Finnish>
+            <!-- AI translated -->
+            <Dutch>Teleporteren</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_UI_YES">
+            <Original>Yes</Original>
+            <English>Yes</English>
+            <!-- AI translated -->
+            <Czech>Ano</Czech>
+            <!-- AI translated -->
+            <French>Oui</French>
+            <!-- AI translated -->
+            <Spanish>Sí</Spanish>
+            <!-- AI translated -->
+            <Italian>Sì</Italian>
+            <!-- AI translated -->
+            <Polish>Tak</Polish>
+            <!-- AI translated -->
+            <Portuguese>Sim</Portuguese>
+            <!-- AI translated -->
+            <Russian>Да</Russian>
+            <!-- AI translated -->
+            <German>Ja</German>
+            <!-- AI translated -->
+            <Korean>예</Korean>
+            <!-- AI translated -->
+            <Japanese>はい</Japanese>
+            <!-- AI translated -->
+            <Chinese>是</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>是</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Evet</Turkish>
+            <!-- AI translated -->
+            <Slovak>Áno</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Так</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Ita</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Да</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Igen</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Ja</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Da</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Ja</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Já</Icelandic>
+            <!-- AI translated -->
+            <Greek>Ναι</Greek>
+            <!-- AI translated -->
+            <Finnish>Kyllä</Finnish>
+            <!-- AI translated -->
+            <Dutch>Ja</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_WARNING_CONNECT_BODY">
+            <Original>&lt;t align='center'&gt;Connecting to a server will delete your current world.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Do you want to continue?&lt;/t&gt;</Original>
+            <English>&lt;t align='center'&gt;Connecting to a server will delete your current world.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Do you want to continue?&lt;/t&gt;</English>
+            <!-- AI translated -->
+            <Czech>&lt;t align='center'&gt;Připojením k serveru smažete svůj současný svět.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Chcete pokračovat?&lt;/t&gt;</Czech>
+            <!-- AI translated -->
+            <French>&lt;t align='center'&gt;La connexion à un serveur supprimera votre monde actuel.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Voulez-vous continuer ?&lt;/t&gt;</French>
+            <!-- AI translated -->
+            <Spanish>&lt;t align='center'&gt;Conectarte a un servidor eliminará tu mundo actual.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;¿Quieres continuar?&lt;/t&gt;</Spanish>
+            <!-- AI translated -->
+            <Italian>&lt;t align='center'&gt;Connettersi a un server cancellerà il tuo mondo attuale.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Vuoi continuare?&lt;/t&gt;</Italian>
+            <!-- AI translated -->
+            <Polish>&lt;t align='center'&gt;Połączenie z serwerem usunie Twój obecny świat.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Czy chcesz kontynuować?&lt;/t&gt;</Polish>
+            <!-- AI translated -->
+            <Portuguese>&lt;t align='center'&gt;Ligar-se a um servidor irá apagar o seu mundo atual.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Quer continuar?&lt;/t&gt;</Portuguese>
+            <!-- AI translated -->
+            <Russian>&lt;t align='center'&gt;Подключение к серверу удалит ваш текущий мир.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Продолжить?&lt;/t&gt;</Russian>
+            <!-- AI translated -->
+            <German>&lt;t align='center'&gt;Wenn du dich mit einem Server verbindest, wird deine aktuelle Welt gelöscht.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Möchtest du fortfahren?&lt;/t&gt;</German>
+            <!-- AI translated -->
+            <Korean>&lt;t align='center'&gt;서버에 연결하면 현재 월드가 삭제됩니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;계속하시겠습니까?&lt;/t&gt;</Korean>
+            <!-- AI translated -->
+            <Japanese>&lt;t align='center'&gt;サーバーに接続すると現在のワールドが削除されます。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;続行しますか？&lt;/t&gt;</Japanese>
+            <!-- AI translated -->
+            <Chinese>&lt;t align='center'&gt;連線到伺服器將刪除目前的世界。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;要繼續嗎？&lt;/t&gt;</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>&lt;t align='center'&gt;连接服务器将删除当前世界。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;要继续吗？&lt;/t&gt;</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>&lt;t align='center'&gt;Bir sunucuya bağlanmak mevcut dünyanızı silecektir.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Devam etmek istiyor musunuz?&lt;/t&gt;</Turkish>
+            <!-- AI translated -->
+            <Slovak>&lt;t align='center'&gt;Pripojením k serveru sa vymaže váš aktuálny svet.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Chcete pokračovať?&lt;/t&gt;</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>&lt;t align='center'&gt;Підключення до сервера видалить ваш поточний світ.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Продовжити?&lt;/t&gt;</Ukrainian>
+            <!-- AI translated -->
+            <Latin>&lt;t align='center'&gt;Coniunctio cum ministerio mundum tuum praesentem delebit.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Continuare visne?&lt;/t&gt;</Latin>
+            <!-- AI translated -->
+            <Bulgarian>&lt;t align='center'&gt;Свързването със сървър ще изтрие текущия ви свят.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Искате ли да продължите?&lt;/t&gt;</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>&lt;t align='center'&gt;A szerverhez csatlakozás törli a jelenlegi világodat.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Szeretnéd folytatni?&lt;/t&gt;</Hungarian>
+            <!-- AI translated -->
+            <Swedish>&lt;t align='center'&gt;Om du ansluter till en server raderas din nuvarande värld.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Vill du fortsätta?&lt;/t&gt;</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>&lt;t align='center'&gt;Povezivanje na server izbrisat će vaš trenutni svijet.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Želite li nastaviti?&lt;/t&gt;</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>&lt;t align='center'&gt;Tilkobling til en server vil slette den nåværende verdenen din.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Vil du fortsette?&lt;/t&gt;</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>&lt;t align='center'&gt;Tenging við netþjón eyðir núverandi heimi þínum.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Viltu halda áfram?&lt;/t&gt;</Icelandic>
+            <!-- AI translated -->
+            <Greek>&lt;t align='center'&gt;Η σύνδεση σε διακομιστή θα διαγράψει τον τρέχοντα κόσμο σας.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Θέλετε να συνεχίσετε;&lt;/t&gt;</Greek>
+            <!-- AI translated -->
+            <Finnish>&lt;t align='center'&gt;Palvelimeen yhdistäminen poistaa nykyisen maailmasi.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Haluatko jatkaa?&lt;/t&gt;</Finnish>
+            <!-- AI translated -->
+            <Dutch>&lt;t align='center'&gt;Als je verbinding maakt met een server, wordt je huidige wereld verwijderd.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t align='center' font='PuristaMedium'&gt;Wil je doorgaan?&lt;/t&gt;</Dutch>
+        </Key>
+        <Key ID="STR_EOEX_WARNING_TITLE">
+            <Original>Warning</Original>
+            <English>Warning</English>
+            <!-- AI translated -->
+            <Czech>Varování</Czech>
+            <!-- AI translated -->
+            <French>Avertissement</French>
+            <!-- AI translated -->
+            <Spanish>Aviso</Spanish>
+            <!-- AI translated -->
+            <Italian>Avviso</Italian>
+            <!-- AI translated -->
+            <Polish>Ostrzeżenie</Polish>
+            <!-- AI translated -->
+            <Portuguese>Aviso</Portuguese>
+            <!-- AI translated -->
+            <Russian>Предупреждение</Russian>
+            <!-- AI translated -->
+            <German>Warnung</German>
+            <!-- AI translated -->
+            <Korean>경고</Korean>
+            <!-- AI translated -->
+            <Japanese>警告</Japanese>
+            <!-- AI translated -->
+            <Chinese>警告</Chinese>
+            <!-- AI translated -->
+            <Chinesesimp>警告</Chinesesimp>
+            <!-- AI translated -->
+            <Turkish>Uyarı</Turkish>
+            <!-- AI translated -->
+            <Slovak>Upozornenie</Slovak>
+            <!-- AI translated -->
+            <Ukrainian>Попередження</Ukrainian>
+            <!-- AI translated -->
+            <Latin>Monitum</Latin>
+            <!-- AI translated -->
+            <Bulgarian>Предупреждение</Bulgarian>
+            <!-- AI translated -->
+            <Hungarian>Figyelmeztetés</Hungarian>
+            <!-- AI translated -->
+            <Swedish>Varning</Swedish>
+            <!-- AI translated -->
+            <SerboCroatian>Upozorenje</SerboCroatian>
+            <!-- AI translated -->
+            <Norwegian>Advarsel</Norwegian>
+            <!-- AI translated -->
+            <Icelandic>Aðvörun</Icelandic>
+            <!-- AI translated -->
+            <Greek>Προειδοποίηση</Greek>
+            <!-- AI translated -->
+            <Finnish>Varoitus</Finnish>
+            <!-- AI translated -->
+            <Dutch>Waarschuwing</Dutch>
+        </Key>
+    </Package>
+</Project>

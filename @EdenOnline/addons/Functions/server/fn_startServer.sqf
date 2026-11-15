@@ -6,12 +6,12 @@ params [["_port",2302,[0]], ["_password","",[""]]];
 // TODO SEND INITIAL OBJECTS TO SERVER WHEN STARTING SERVER
 
 if (missionNamespace getVariable ["EOEX_var_Connected",false]) exitWith {
-	["YOU ARE ALREADY CONNECTED", 1, 5] call BIS_fnc_3DENNotification;
+	[localize "STR_EOEX_NOTIFY_ALREADY_CONNECTED", 1, 5] call BIS_fnc_3DENNotification;
 };
 
 /*
 if !((all3DENEntities) isEqualto [[],[],[],[],[],[],[],[-999]]) exitWith {
-	["World must be empty first!", 1, 5] call BIS_fnc_3DENNotification;
+	[localize "STR_EOEX_NOTIFY_WORLD_NOT_EMPTY", 1, 5] call BIS_fnc_3DENNotification;
 };
 */
 
@@ -24,7 +24,7 @@ _modHashes sort true;
 private _gameVersion = format ["%1",(productVersion#2)/100 toFixed 2];
 private _password = "";
 
-startLoadingScreen ["Starting server..."];
+startLoadingScreen [localize "STR_EOEX_LOADING_STARTING_SERVER"];
 
 uiSleep 0.1;
 
@@ -145,7 +145,7 @@ while {EOEX_var_expectedObjectSyncCount == -1 || (count (all3DENEntities # 0)) <
 
 	// Timeout check
     if ((diag_tickTime - _startTime) > _timeoutSeconds) exitWith {
-        ["Server sync timed out!", 1, 5] call BIS_fnc_3DENNotification;
+        [localize "STR_EOEX_NOTIFY_SYNC_TIMEOUT", 1, 5] call BIS_fnc_3DENNotification;
         missionNamespace setVariable ["EOEX_var_Connected", false];
         endLoadingScreen;
     };
@@ -169,7 +169,7 @@ while {EOEX_var_expectedObjectSyncCount == -1 || (count (all3DENEntities # 0)) <
 call EOEX_fnc_init3DENEvents;
 
 
-[("CONNECTED TO SERVER WITH ID: " + str(_id)), 0,5] call BIS_fnc_3DENNotification;
+[format [localize "STR_EOEX_NOTIFY_CONNECTED", _id], 0,5] call BIS_fnc_3DENNotification;
 
 missionNamespace setVariable ["EOEX_var_Connected", true];
 missionNamespace setVariable ["EOEX_var_IsHost", true];

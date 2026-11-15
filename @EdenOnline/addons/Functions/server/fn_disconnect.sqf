@@ -39,15 +39,15 @@ if (missionNamespace getVariable ["EOEX_var_Connected",false]) then {
 	// If there is no reason, it was successful
 	if (_reason == "") then {
 		if (_type == 0) then {
-			["Server was shutdown!",0,5] call BIS_fnc_3DENNotification;
+			[localize "STR_EOEX_NOTIFY_SERVER_SHUTDOWN",0,5] call BIS_fnc_3DENNotification;
 		} else {
-			["You disconnected!",0,5] call BIS_fnc_3DENNotification;
+			[localize "STR_EOEX_NOTIFY_DISCONNECTED",0,5] call BIS_fnc_3DENNotification;
 		};
 	} else {
 		if (_type == 0) then {
-			[format ["Server was shutdown! Reason: %1", _reason], 1, 5] call BIS_fnc_3DENNotification;
+			[format [localize "STR_EOEX_NOTIFY_SERVER_SHUTDOWN_REASON", _reason], 1, 5] call BIS_fnc_3DENNotification;
 		} else {
-			[format ["You disconnected! Reason: %1", _reason], 1, 5] call BIS_fnc_3DENNotification;
+			[format [localize "STR_EOEX_NOTIFY_DISCONNECTED_REASON", _reason], 1, 5] call BIS_fnc_3DENNotification;
 		};
 	};
 };
