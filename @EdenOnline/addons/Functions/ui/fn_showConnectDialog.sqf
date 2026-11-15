@@ -53,7 +53,7 @@ _ipLabel ctrlSetPosition
 _ipLabel ctrlSetText "Host:";
 
 // Host edit
-private _lastIp = profileNamespace getVariable ["EOEX_fnc_lastConnect","127.0.0.1"];
+private _lastIp = profileNamespace getVariable ["EOEX_fnc_lastConnect", "127.0.0.1"];
 _hostEdit = _display ctrlCreate ["ctrlEdit", -1];
 _hostEdit ctrlSetPosition
 [
@@ -76,7 +76,7 @@ _portLabel ctrlSetPosition
 _portLabel ctrlSetText "Port:";
 
 // Port edit
-private _lastPort = profileNamespace getVariable ["EOEX_fnc_lastPort","2302"];
+private _lastPort = profileNamespace getVariable ["EOEX_fnc_lastPort", "2302"];
 _portEdit = _display ctrlCreate ["ctrlEdit", -1];
 _portEdit ctrlSetPosition
 [
